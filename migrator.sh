@@ -43,7 +43,7 @@ then
   echo -e "${BGREEN}X-UI is already installed$NC"
 else
   echo "Installing x-ui..."
-  if ! (bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh))
+  if ! (bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh))
   then
     echo -e "${BRED}Error in installing x-ui$NC" && exit 1;
   else
